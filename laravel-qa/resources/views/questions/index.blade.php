@@ -5,10 +5,12 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="d-flex aling-items-center">
-                    <h2>All Questions</h2>
-                    <div class="ml-auto">
-                        <a href="{{route("questions.create")}}"></a>
+                <div class="card-header">
+                    <div class="d-flex aling-items-center">
+                        <h2>All Questions</h2>
+                        <div class="ml-auto">
+                            <a href="{{route("questions.create")}}" class="btn btn-outline-secondary">Ask Question</a>
+                        </div>
                     </div>
                 </div>
 
